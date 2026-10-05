@@ -1,0 +1,17 @@
+generateText = {import:ai-text-plugin}
+superFetch = {import:super-fetch-plugin}
+kv = {import:kv-plugin}
+generateImage = {import:text-to-image-plugin}
+
+$meta
+  title = Surgexity — AI Search & Answer Engine
+  description = AI-powered search and answers with web search, source citations, threaded conversations, spaces, discovery, and PWA support.
+  image = https://files.manuscdn.com/user_upload_by_module/session_file/310519663923719894/snZSitKFYJusANRq.png
+  tags = search, ai, answers, research, assistant, pwa
+
+appConfig
+  appName = Surgexity
+  nsfwEnabled = true
+  maxSources = 6
+  maxRelatedQuestions = 5
+  version = 1.0.0
